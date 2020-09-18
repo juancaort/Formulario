@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Grandstander', cursive;
+}
+
+h2,h3,h4,h5,h6{
+    
+    font-family: 'Grandstander', cursive;  
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.header{
+    height: 6px;
+}
+
+.header.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-bars{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: darkcyan;
+    color: #FFF;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.nav{
+    position: absolute;
+    top: 60px;
+    left:-100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__liga{
+    display: block;
+    padding: 20px;
+    background: darkcyan;
+    text-decoration: none;
+    color: #FFF;
+    
+}
+
+.menu__liga:hover{
+    background: #C2AFDC;
+    color: darkviolet;
+}
+
+.mostrar{
+    left:0;
+}
+
+.seccion{
+    background: #C2AFDC;
+    color: darkviolet;
+}
+
+.banner{
+    margin-top: -60px;
+    position: relative;
+    z-index: -1000;
+    margin-bottom: 25px;
+}
+
+.banner .contenedor{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color:white;
+    text-align: center;
+}
+
+.banner__texto{
+    display: none;
+}
+
+.ingo__columna{
+    background: darkviolet;
+    color: #FFF;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.seccion__titulo{
+    text-align: center;
+    font-size: 30px;
+    color: darkred;
+}
+
+.section__columna{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.descripcion__cursos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    background: rgba(0,0,0,0.5);
+    width: 70%;
+    height: 100%;
+    padding: 15px;
+}
+
+.cursos__titulo{
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.footer{
+    background: #333;
+    color:#fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer [class^="icon-"]{
+    color:#333;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+}
